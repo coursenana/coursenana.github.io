@@ -1,0 +1,136 @@
+.page .sharecenter {
+    position: fixed !important;
+    bottom: 0px;
+    left: calc(50% - 700px);
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 140px;
+    z-index: 10;
+}
+.page .sharecenter .gyiconbtn {
+    width: 56px;
+    height: 56px;
+}
+.page .sharecenter .gyaction.gyiconbtn:hover,
+.page .sharecenter .gyaction.gyiconbtn:focus {
+    background-color: white;
+    background-color: #e6e6e6;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+}
+.page .sharecenter .shareqrcode .image {
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px 5px;
+
+    display: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+.page .sharecenter .shareqrcode:hover .image ,
+.page .sharecenter .shareqrcode:focus .image {
+    display: block;
+    position: absolute;
+    left: 100px;
+}
+.page .sharecenter .shareqrcode .image canvas{
+    width: 200px;
+    height: 200px;
+}
+.page .sharecenter .shareqrcode .gyiconbtn {
+    background-image: url('/images/icons/qrcode_2c2c2c_200.png');
+    background-size: 50%;
+}
+.page .sharecenter .shareqrcode .gyiconbtn:hover,
+.page .sharecenter .shareqrcode .gyiconbtn:focus {
+    background-color: #e6e6e6;
+}
+.page .sharecenter .gyiconbtn {
+    background-size: 50%;
+}
+.page .sharecenter .gyiconbtn.qzone {
+    background-image: url('/images/icons/qzone_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.wechat {
+    background-image: url('/images/icons/wechat_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.weibo{
+    background-image: url('/images/icons/weibo_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.linkedin {
+    background-image: url('/images/icons/linkedin_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.facebook {
+    background-image: url('/images/icons/facebook_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.twitter {
+    background-image: url('/images/icons/twitter_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.reddit {
+    background-image: url('/images/icons/reddit_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.messenger {
+    background-image: url('/images/icons/messenger_solid_2c2c2c_200.png');
+}
+.page .sharecenter .gyiconbtn.whatsapp {
+    background-image: url('/images/icons/whatsapp_solid_2c2c2c_200.png');
+}
+
+.page .contact_footer .gyicon.service_time {
+    background-image: url('/images/icons/24h_01.png');
+    width: 35px;
+    height: 35px;
+}
+.page .contact_footer .item {
+    position: relative;
+}
+.page .contact_footer .item .qrcode {
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: none;
+
+    background-color: white;
+    border-radius: 8px;
+
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px 5px;
+}
+.page .contact_footer .item:hover .qrcode ,
+.page .contact_footer .item:focus .qrcode {
+    display: flex;
+}
+.page .contact_footer .item .qrcode .title {
+    margin-top: 5px;
+}
+.page .contact_footer .item .qrcode .gyimage {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.page .contact_footer .item .qrcode .gyimage img {
+    width: 100%;
+    height: 100%;
+}
+.page .contact_footer .item.qq > .gyicon {
+    background-image: url(/images/icons/qq_solid.png);
+}
+.page .contact_footer .item.wechat > .gyicon {
+    background-image: url(/images/icons/wechat_solid_2c2c2c_200.png);
+}
+.page .contact_footer .item.email > .gyicon {
+    background-image: url(/images/icons/email_solid.png);
+    width: 30px;
+    height: 30px;
+}
+
